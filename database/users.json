@@ -1,0 +1,4 @@
+{"_id":{"$oid":"605c6782bd7e73422cb74e0a"},"Username":"Hamza","Password":123456.0,"Email":"hamza@gmail.com","Birthday":{"$date":"2021-03-25T10:35:46.376Z"},"FavoriteMovies":[{"$oid":"605c65e8cc44a8540e5f50bb"},{"$oid":"605c65e8cc44a8540e5f50b8"}]}
+{"_id":{"$oid":"605c6782bd7e73422cb74e0b"},"Username":"Sally","Password":123456.0,"Email":"sally@gmail.com","Birthday":{"$date":"2021-03-25T10:35:46.425Z"},"FavoriteMovies":[{"$oid":"605c65e7cc44a8540e5f50b5"},{"$oid":"605c65e7cc44a8540e5f50b6"}]}
+{"_id":{"$oid":"605c6782bd7e73422cb74e0c"},"Username":"John","Password":123456.0,"Email":"john@gmail.com","Birthday":{"$date":"2021-03-25T10:35:46.466Z"},"FavoriteMovies":[{"$oid":"605c65e8cc44a8540e5f50b9"},{"$oid":"605c65e8cc44a8540e5f50ba"}]}
+{"_id":{"$oid":"605c73ffc63a531d94988351"},"FavoriteMovies":[],"Username":"Samir","Password":"$2b$10$XHtYXMsPXmWEbUgpjUDT4Ow5qiYDwLw8lKVXj0lzSJlgxLZOqjkou","Email":"samir@gmail.com","__v":0}
