@@ -40,7 +40,7 @@ app.use(morgan('common'));
 app.use(express.static('public'));
 
 
-app.get("/movies", function (req, res) {
+app.get("/movies", passport.authenticate('jwt', { session: false }), function (req, res) {
   Movies.find()
     .then(function (movies) {
       res.status(201).json(movies);
@@ -50,18 +50,6 @@ app.get("/movies", function (req, res) {
       res.status(500).send("Error: " + error);
     });
 });
-
-
-// app.get('/movies', passport.authenticate('jwt', { session: false }), (req, res) => {
-//   Movies.find()
-//     .then((movies) => {
-//       res.status(201).json(movies);
-//     })
-//     .catch((error) => {
-//       console.error(error);
-//       res.status(500).send('Error: ' + error);
-//     });
-// });
 
 
 // Get a movie by title
